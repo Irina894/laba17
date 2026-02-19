@@ -13,7 +13,7 @@ namespace P03_SalesDatabase
             {
                 Seeder.Seed(context);
 
-                Console.WriteLine("--- Перевірка даних ---");
+                Console.WriteLine(" Перевірка даних ");
 
                 var sales = context.Sales
                     .Include(s => s.Customer) 
